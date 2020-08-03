@@ -3,13 +3,13 @@ on: [push]
 jobs:
   hello_world_job:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: A job to say hkk hello
     steps:
     - name: Hello world action step
-      id: hello
-      uses: k-hamamoto-cre/github_action_sample@v1
+      id: KuniakiHelloScript
+      uses: k-hamamoto-cre/github_action_sample@master
       with:
-        who-to-greet: 'KuniakiHamamoto'
+        who-to-greet: 'KuniHama'
     # Use the output from the `hello` step
-    - name: Get the output time
+    - name: Get the output time hamamoto
       run: echo "The time was ${{ steps.hello.outputs.time }}"

@@ -10,7 +10,8 @@ try {
   // Get the JSON webhook payload for the event that triggered the workflow
   const payload = JSON.stringify(github.context.payload, undefined, 2)
   console.log(`The event payload: ${payload}`);
-  throw 'Parameter is not a number!';
+  throw new Error("あいうえお");
 } catch (error) {
-  core.setFailed(error.message);
+//   core.setFailed(error.message);
+  console.error("error from console.error(): " + error.message)
 }
