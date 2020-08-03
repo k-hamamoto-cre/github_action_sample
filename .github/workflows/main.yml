@@ -6,7 +6,7 @@ jobs:
     name: A job to say hello
     steps:
     - name: Hello world action step
-      id: hello
+      id: helloa
       uses: actions/hello-world-javascript-action@v1
       with:
         who-to-greet: 'Mona the Octocat'
