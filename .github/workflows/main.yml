@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: helloa
-      uses: actions/hello-world-javascript-action@v1
+      uses: k-hamamoto-cre/github_action_sample@master
       with:
         who-to-greet: 'Mona the Octocat'
     # Use the output from the `hello` step
