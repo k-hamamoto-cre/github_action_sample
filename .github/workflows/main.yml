@@ -3,14 +3,13 @@ on: [push]
 jobs:
   hello_world_job:
     runs-on: ubuntu-latest
-    name: A job to say hello
+    name: A job to say hkk hello
     steps:
     - name: Hello world action step
-      id: hello
+      id: KuniakiHelloScript
       uses: k-hamamoto-cre/github_action_sample@master
       with:
-        who-to-greet: 'KuniakiHamamoto'
-      run: echo "error::"
+        who-to-greet: 'KuniHama'
     # Use the output from the `hello` step
     - name: Get the output time
       run: echo "The time was ${{ steps.hello.outputs.time }}"

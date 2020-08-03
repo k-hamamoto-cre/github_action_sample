@@ -12,6 +12,6 @@ try {
   console.log(`The event payload: ${payload}`);
   throw new Error("あいうえお");
 } catch (error) {
-  core.setFailed(error.message);
-  console.error("error from console.error(): " + error.message)
+//   core.setFailed(error.message);
+//   console.error("error from console.error(): " + error.message)
 }
