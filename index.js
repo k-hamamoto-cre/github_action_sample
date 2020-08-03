@@ -13,5 +13,5 @@ try {
   throw new Error("あいうえお");
 } catch (error) {
 //   core.setFailed(error.message);
-//   console.error("error from console.error(): " + error.message)
+  console.error("error from console.error(): " + error.message)
 }

@@ -11,5 +11,5 @@ jobs:
       with:
         who-to-greet: 'KuniHama'
     # Use the output from the `hello` step
-    - name: Get the output time
+    - name: Get the output time hamamoto
       run: echo "The time was ${{ steps.hello.outputs.time }}"
