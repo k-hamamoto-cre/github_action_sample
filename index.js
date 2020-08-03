@@ -10,7 +10,7 @@ try {
     // Get the JSON webhook payload for the event that triggered the workflow
     //   const payload = JSON.stringify(github.context.payload, undefined, 2)
     //   console.log(`The event payload: ${payload}`);
-    throw new Error("あいうえお");
+    throw new Error("あいうえお"); 
 } catch (error) {
     // setFailedするとActions側でエラー検知する
     core.setFailed(error.message);
