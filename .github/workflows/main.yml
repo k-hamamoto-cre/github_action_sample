@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: k-hamamoto-cre/github_action_sample@v1
+      uses: k-hamamoto-cre/github_action_sample
       with:
         who-to-greet: 'KuniakiHamamoto'
     # Use the output from the `hello` step
