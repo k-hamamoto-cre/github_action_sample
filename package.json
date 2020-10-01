@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/k-hamamoto-cre/github_action_sample#readme",
   "dependencies": {
-    "@actions/core": "^1.2.4",
+    "@actions/core": "^1.2.6",
     "@actions/github": "^4.0.0"
   }
 }
